@@ -1,2 +1,5 @@
-# Probablistic model calibration
- Probablistic calibration of model parameters using UQLAB and ICFEP
+# Imperial College Finite Element Program (ICFEP) connection with UQLAB
+
+2023 
+
+Probablistic model calibration using sequential MCMC 
