@@ -1,0 +1,25 @@
+name: Windows CI
+on:  [push, pull_request]
+permission:
+  contents: write
+jobs:
+  Windows:
+    name: Windows
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        architecture:
+          # - '32'
+          - '64'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}$
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
