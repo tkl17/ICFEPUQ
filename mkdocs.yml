@@ -1,5 +1,5 @@
 site_name: ICFEPUQ (v0.0.1)
-site_url: https://github.com/tkl17/ICFEPUQLINK
+
 nav:
     - Home: index.md
     - UserGuide: userguide.md
