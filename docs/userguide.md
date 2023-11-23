@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# User Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[Documentation](index.md)/User Guide = 
 
-## Commands
+## 
+1. Getting started
+    * [Installation](index.md)
+    * [File Directory](filedirectory.md)
+    * [Input Files](index.md)
+        * [Probablistic model input](index.md)
+        * [Metadata](index.md)
+    * [Running the Code](index.md)
+2. Data Output
+    * [Overview](index.md)
+    * [Matlab Output](index.md)
+    * [Visualizing Outputs](index.md)
+3. Bayesian Analysis
+    * [Overview](index.md)
+    * [Surrogate modelling](index.md)
+    * [Dimensionality reduction](index.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Please see the [about](about.md) for contact details.

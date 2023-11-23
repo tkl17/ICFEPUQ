@@ -1,4 +1,4 @@
-# ICFEPUQ-MatLab
+# Introduction to ICFEPUQ
 
 An Uncertainty Quantification (UQ) library built in Matlab to work with Imperial College Finite Element Program (ICFEP) and Abaqus. 
 

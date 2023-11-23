@@ -1,8 +1,9 @@
-site_name: ICFEPUQ (v0.0.1)
+site_name: ICFEPUQ-m Documentation (v0.0.1)
 
 nav:
     - Home: index.md
-    - UserGuide: userguide.md
+    - User Guide: userguide.md
+    - File Directory: filedirectory.md
     - About: about.md
 
 theme: 
