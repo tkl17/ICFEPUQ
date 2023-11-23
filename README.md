@@ -1,4 +1,4 @@
-# Imperial College Finite Element Program (ICFEP) connection with UQLAB
+# Imperial College (IC) connection with UQLAB
 
 2023 
 
